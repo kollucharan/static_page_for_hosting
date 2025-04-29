@@ -1,0 +1,86 @@
+
+/* .card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    color: #333;
+  }
+  
+  .card p {
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .card button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+   */
+   /* src/Components/Card/Card.css */
+.card {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+  }
+  
+  .card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #222;
+  }
+  
+  .card p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .card button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+  }
+  .image-design{
+    width: 45px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
