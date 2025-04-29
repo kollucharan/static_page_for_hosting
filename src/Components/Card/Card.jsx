@@ -11,9 +11,9 @@ export default function Card({ title, description,image }) {
       window.open("https://www.talview.com/ai-quiz-generator", "_blank");
     }
     else if(title === "Molly AI") {
-      window.open("https://www.talview.com/en/", "_blank");
+      window.open(" https://www.talview.com/en/molly-ai-interview-agent", "_blank");
     }
-    else if(title === "JD and Interview Questions Generator") {
+    else if(title === "Job description and Interview Questions Generator") {
       window.open("https://ai-agents.talview.com/", "_blank");
     }
    
@@ -24,7 +24,7 @@ export default function Card({ title, description,image }) {
         <img src={image} className="image-design" />
       <h2>{title}</h2>
       <p>{description}</p>
-      <button onClick={clicked}>Visit</button>
+      <button onClick={clicked}>Know More</button>
     </div>
   );
 }

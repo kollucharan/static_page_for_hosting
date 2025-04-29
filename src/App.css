@@ -1,4 +1,11 @@
 /* src/App.css */
+body {
+  font-family: 'Mulish', sans-serif;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
 .card-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -13,6 +20,8 @@
   text-align: center;
   font-size: 2rem;
   margin: 30px 0 10px;
+  font-weight: 800;
+  font-family: 'Mulish', sans-serif;
 }
 
 @media (max-width: 768px) {

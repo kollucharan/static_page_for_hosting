@@ -1,0 +1,19 @@
+.site-header {
+    background-color: #1D4ED8;
+    color: #fff;
+    padding: 18px 20px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+    /* Flex layout to align items */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .Headerclass {
+    width: 100px;
+    height: auto;
+  }
+  
+  
