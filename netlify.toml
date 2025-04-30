@@ -1,29 +1,5 @@
-[build]
-  command = "npm run build"
-  publish = "dist"
-
-# Only redirect the actual page requests to your second app
 [[redirects]]
-  from = "/jdgenerator"
-  to = "https://generatejobdescriptionandquestions.netlify.app"
+  from = "/jdgenerator/*"
+  to = "https://generatejobdescriptionandquestions.netlify.app/:splat"
   status = 200
   force = true
-
-[[redirects]]
-  from = "/jdgenerator/"
-  to = "https://generatejobdescriptionandquestions.netlify.app/"
-  status = 200
-  force = true
-
-# Redirect specific asset requests for the second app
-[[redirects]]
-  from = "/jdgenerator/assets/*"
-  to = "https://generatejobdescriptionandquestions.netlify.app/assets/:splat"
-  status = 200
-  force = true
-
-# Redirect all other paths to the main app
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
