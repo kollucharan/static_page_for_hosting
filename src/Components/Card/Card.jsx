@@ -14,7 +14,7 @@ export default function Card({ title, description,image }) {
       window.open(" https://www.talview.com/en/molly-ai-interview-agent", "_blank");
     }
     else if(title === "Job description and Interview Questions Generator") {
-      window.open("https://ai-agents.talview.com/", "_blank");
+      window.open("https://ai-agents.talview.com/jdgenerator", "_blank");
     }
    
 
