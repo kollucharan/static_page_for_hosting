@@ -2,12 +2,25 @@
   command = "npm run build"
   publish = "dist"
 
+
+[[redirects]]
+  from = "/jdgenerator"
+  to = "https://generatejobdescriptionandquestions.netlify.app"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/jdgenerator/"
+  to = "https://generatejobdescriptionandquestions.netlify.app/"
+  status = 200
+  force = true
+
+
 [[redirects]]
   from = "/jdgenerator/*"
   to = "https://generatejobdescriptionandquestions.netlify.app/:splat"
   status = 200
   force = true
-
 
 [[redirects]]
   from = "/*"
