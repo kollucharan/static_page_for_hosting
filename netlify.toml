@@ -1,7 +1,7 @@
-# netlify.toml for ai‑agents.talview.com
+
 [build]
-  publish = "build"         # or your existing output directory
-  command = "npm run build" # or your existing build command
+  publish = "dist"         
+  command = "npm run build" 
 
 [[redirects]]
   from   = "/jdgenerator/*"                                        
