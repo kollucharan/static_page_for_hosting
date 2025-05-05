@@ -1,29 +1,10 @@
+# netlify.toml for ai‑agents.talview.com
 [build]
-  command = "npm run build"
-  publish = "dist"
-
-
-[[redirects]]
-  from = "/jdgenerator"
-  to = "https://generatejobdescriptionandquestions.netlify.app"
-  status = 200
-  force = true
+  publish = "build"          # or your existing output folder
+  command = "npm run build"  # or your existing build command
 
 [[redirects]]
-  from = "/jdgenerator/"
-  to = "https://generatejobdescriptionandquestions.netlify.app/"
-  status = 200
-  force = true
-
-
-[[redirects]]
-  from = "/jdgenerator/*"
-  to = "https://generatejobdescriptionandquestions.netlify.app/:splat"
-  status = 200
-  force = true
- 
- 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+  from   = "/jdgenerator/*"                                          # trap anything under /jdgenerator
+  to     = "https://generatejobdescriptionandquestions.netlify.app/:splat"  
+  status = 200               # 200 makes it a proxy/rewrite, not a browser redirect :contentReference[oaicite:0]{index=0}
+  force  = true              # always proxy, even if a local file exists :contentReference[oaicite:1]{index=1}
