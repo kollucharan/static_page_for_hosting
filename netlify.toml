@@ -4,7 +4,7 @@
   command = "npm run build" 
 
 [[redirects]]
-  from   = "/jdgenerator/*"                                        
+  from   = "/jd-generator/*"                                        
   to     = "https://generatejobdescriptionandquestions.netlify.app/:splat"
   status = 200               
   force  = true             
