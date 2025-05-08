@@ -5,7 +5,7 @@ export default function Card({ title, description,image }) {
   const clicked = () => {
     if(title === "Alvy – AI Proctoring") {
    
-      window.open("https://www.talview.com/en/", "_blank");
+      window.open("https://www.talview.com/en/alvy-ai-proctoring-agent", "_blank");
     }
     else if(title === "Quiz Generator") {
       window.open("https://www.talview.com/ai-quiz-generator", "_blank");
