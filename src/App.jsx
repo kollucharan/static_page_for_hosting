@@ -17,7 +17,7 @@ function App() {
           title="Quiz Generator"
           description=" Create quizzes in seconds with Talview’s Free Quiz Generator. Customize topics, difficulty, and question types — fast, easy, and ready to use."image={quizsvg}
         />
-        <Card title="Molly AI" description=" Meet Molly AI by Talview — your smart AI agent for Interviews. Deliver human-like, dynamic interviews with real-time follow-ups, impersonation checks, and conduct fraud free interviews" image={mollysvg} />
+        <Card title="Ivy AI" description=" Meet Molly AI by Talview — your smart AI agent for Interviews. Deliver human-like, dynamic interviews with real-time follow-ups, impersonation checks, and conduct fraud free interviews" image={mollysvg} />
         <Card
           title="Job description and Interview Questions Generator"
           description=" Draft job descriptions and interview questions effortlessly with Talview’s Free Generator. Save time, stay accurate, and hire better with AI-driven suggestions.."image={jdsvg}
