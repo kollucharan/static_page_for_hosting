@@ -1,5 +1,3 @@
-
-
 // import './Header.css';
 // import headerlogo from '../../assets/images/Talviewlogo.png';
 
@@ -14,9 +12,9 @@
 //     </header>
 //   );
 // }
-import './Header.css';
-import headerlogo from '../../assets/images/Talviewlogo.png';
-import { useState } from 'react';
+import "./Header.css";
+import headerlogo from "../../assets/images/Talviewlogo.png";
+import { useState } from "react";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,7 +24,7 @@ export default function Header() {
   };
 
   const toggleMenu = () => {
-    setMenuOpen(prev => !prev);
+    setMenuOpen((prev) => !prev);
   };
 
   return (
@@ -41,18 +39,35 @@ export default function Header() {
       </div>
 
       {/* Hamburger for mobile */}
-      <div className={`hamburger${menuOpen ? ' open' : ''}`} onClick={toggleMenu}>
+      <div
+        className={`hamburger${menuOpen ? " open" : ""}`}
+        onClick={toggleMenu}
+      >
         <span />
         <span />
         <span />
       </div>
 
-      <nav className={`nav-links${menuOpen ? ' mobile-open' : ''}`}>  
-        <a href="https://www.talview.com/en/" target="_blank" rel="noreferrer">Home</a>
-        <a href="https://www.talview.com/en/solutions" target="_blank" rel="noreferrer">Our solutions</a>
-        <a href="https://www.talview.com/en/products"  target="_blank" rel="noreferrer">Proctoring and Hiring Solutions</a>
+      <nav className={`nav-links${menuOpen ? " mobile-open" : ""}`}>
+        <a
+          href="https://www.talview.com/en/products"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Proctoring & Hiring Solutions
+        </a>
+
+        <a
+          href="https://www.talview.com/en/solutions"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Our solutions
+        </a>
+        <a href="https://www.talview.com/en/" target="_blank" rel="noreferrer">
+          Home
+        </a>
       </nav>
     </header>
   );
 }
-

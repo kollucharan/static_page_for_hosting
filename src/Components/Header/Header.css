@@ -119,3 +119,28 @@
     opacity: 1;
   }
 }
+@media (min-width: 1024px) {
+  .site-header {
+    padding: 18px 120px; /* 18px vertical, 120px horizontal */
+  }
+}
+
+/* 2. Mobile screens: logo on left, hamburger on right */
+@media (max-width: 768px) {
+  .site-header {
+    justify-content: space-between; /* push items to edges */
+    padding: 18px 20px;             /* keep your mobile padding */
+  }
+
+  .header-left {
+    order: 1; /* logo first */
+  }
+
+  .hamburger {
+    order: 2; /* hamburger second (far right) */
+  }
+
+  .nav-links {
+    order: 3; /* menu slides in underneath */
+  }
+}
