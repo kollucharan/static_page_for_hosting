@@ -8,3 +8,9 @@
   to     = "https://generatejobdescriptionandquestions.netlify.app/:splat"
   status = 200               
   force  = true             
+
+[[redirects]]
+from   = "/question-generator/*"
+to     = "https://questiongenerator.netlify.app/:splat"
+status = 200
+force  = true
