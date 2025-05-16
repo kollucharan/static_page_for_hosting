@@ -10,7 +10,7 @@
   force  = true             
 
 [[redirects]]
-from   = "/question-generator/*"
+from   = "/interview-question-generator/*"
 to     = "https://questiongenerato.netlify.app/:splat"
 status = 200
 force  = true
