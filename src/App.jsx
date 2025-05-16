@@ -5,6 +5,7 @@ import quizsvg from './assets/images/copy.svg'
 import jdsvg from './assets/images/job.svg'
 import mollysvg from './assets/images/customer-support.svg'
 import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
@@ -23,6 +24,8 @@ function App() {
           description=" Draft job descriptions and interview questions effortlessly with Talview’s Free Generator. Save time, stay accurate, and hire better with AI-driven suggestions.."image={jdsvg}
         />
       </div>
+
+      <Footer/>
     </>
   );
 }
