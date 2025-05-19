@@ -13,10 +13,12 @@ export default function Card({ title, description,image }) {
     else if(title === "Ivy AI") {
       window.open(" https://www.talview.com/en/molly-ai-interview-agent", "_blank");
     }
-    else if(title === "Job description and Interview Questions Generator") {
+    else if(title === "Job Description Generator") {
       window.open("https://ai-agents.talview.com/jd-generator", "_blank");
     }
-   
+   else if(title === "Interview Question Generator"){
+   window.open("https://ai-agents.talview.com/interview-question-generator", "_blank");
+   }
 
   };
   return (
