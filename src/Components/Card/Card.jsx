@@ -10,7 +10,7 @@ export default function Card({ title, description,image }) {
     else if(title === "Quiz Generator") {
       window.open("https://www.talview.com/ai-quiz-generator", "_blank");
     }
-    else if(title === "Ivy AI") {
+    else if(title === "Ivy - AI Interviewer") {
       window.open(" https://www.talview.com/en/molly-ai-interview-agent", "_blank");
     }
     else if(title === "Job Description Generator") {
