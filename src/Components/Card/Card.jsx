@@ -8,7 +8,7 @@ export default function Card({ title, description,image }) {
       window.open("https://www.talview.com/en/alvy-ai-proctoring-agent", "_blank");
     }
     else if(title === "Quiz Generator") {
-      window.open("https://www.talview.com/ai-quiz-generator", "_blank");
+      window.open("https://ai-agents.talview.com/ai-quiz-generator", "_blank");
     }
     else if(title === "Ivy - AI Interviewer") {
       window.open(" https://www.talview.com/en/molly-ai-interview-agent", "_blank");
