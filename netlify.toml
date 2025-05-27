@@ -14,3 +14,9 @@ from   = "/interview-question-generator/*"
 to     = "https://questiongenerato.netlify.app/:splat"
 status = 200
 force  = true
+
+[[redirects]]
+from   = "/ai-quiz-generator/*"
+to     = "https://qton.netlify.app/:splat"
+status = 200
+force  = true
