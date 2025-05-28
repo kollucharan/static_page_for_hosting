@@ -54,7 +54,7 @@ export default function Header() {
           target="_blank"
           rel="noreferrer"
         >
-          Proctoring & Hiring Solutions
+          Products
         </a>
 
         <a
@@ -62,7 +62,7 @@ export default function Header() {
           target="_blank"
           rel="noreferrer"
         >
-          Our Solutions
+          Solutions
         </a>
         <a href="https://www.talview.com/en/" target="_blank" rel="noreferrer">
           Talview Home
