@@ -9,7 +9,20 @@
   <!-- add more URLs here -->
    <url>
     <loc>https://ai-agents.talview.com/jd-generator</loc>
-    <lastmod>2025-05-14</lastmod>
+    
+   <lastmod>2025-05-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-agents.talview.com/ai-quiz-generator</loc>
+    <lastmod>2025-05-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-agents.talview.com/interview-question-generator</loc>
+    <lastmod>2025-05-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
