@@ -3,6 +3,11 @@
   publish = "dist"         
   command = "npm run build" 
 
+  [[plugins]]
+  package  = "@netlify/plugin-sitemap"
+  disabled = true
+
+
 [[redirects]]
   from   = "/jd-generator/*"                                        
   to     = "https://generatejobdescriptionandquestions.netlify.app/:splat"
