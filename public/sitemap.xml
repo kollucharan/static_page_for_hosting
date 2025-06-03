@@ -8,8 +8,7 @@
   </url>
   <!-- add more URLs here -->
    <url>
-    <loc>https://ai-agents.talview.com/jd-generator</loc>
-    
+  <loc>https://ai-agents.talview.com/jd-generator</loc>  
    <lastmod>2025-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
